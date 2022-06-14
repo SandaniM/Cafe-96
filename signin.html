@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign in</title>
+<link rel = "stylesheet" href = "1.css" >
+</head>
+<body> 
+<script src="v.js">
+
+<?php
+
+$servername = "localhost";
+$username = "username";
+$password = "password";
+$dbname = "webdb";
+
+
+$a = $_POST["username"];
+$b = $_POST["password"];
+
+// Create connection
+$conn = new mysqli($servername,$username, $password, $webdb);
+
+// Check connection
+if ($conn->connect_error) 
+{
+	die("Connection failed: " . $conn->connect_error);
+}
+
+$sqlquery = "INSERT INTO web1 VALUES('$a', '$b')";
+
+if ($conn->query($sql) == TRUE) 
+{
+	echo "record inserted successfully";
+}
+else 
+{
+	echo "Error: " . $sql . "<br>" . $conn->error;
+}
+?>
+	
+</script>
+
+<form name = "signin" action="login.html"  autocomplete="off" onsubmit="return validateSignin()"  method="post">
+	<div class="container">
+	<div ><label for="username" id="lbluser">User Name</label>
+	<input type="text" name="username" id="username"></div>
+	<br><br>
+	
+	<div><label for="password" id="lblpass">Password </label>
+	<input type="password" name="password" id="password"><div>
+	<br><br>
+	
+	<div><label for="Re-enter" id="lblre-enter">Re-enter password</label>
+	<input type="text" name="re-enter" id="re-enter"></div>
+	<br><br><br>
+	
+	<input type = "submit" class = "btn3" value ="S I G N I N " >
+	</div>
+	</form>
+</body>
+</html>

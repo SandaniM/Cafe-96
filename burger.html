@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Burgers</title>
+<link rel = "stylesheet" href = "1.css" >
+</head>
+<body>
+<script src = "v.js"></script>
+
+<h2 class= "h22" > CAFE '96 </h2>
+<center><h3><b>B	U	R	G	E	R</b></h3></center>
+
+<div class="navigation">
+ <ul>
+ <li><a href="home.html">Home</a></li>
+ <li><a href="about.html">About Us</a></li>
+ <li><a href="pastry.html">Pastry</a></li>
+ <li><a href="cake.html">Cakes</a></li>
+ <li><a href="burger.html">Burgers</a></li>
+ <li><a href="beverages.html">Beverages</a></li>
+ <li><a href="candy.html">Candy</a></li>
+ <li><a href="dessert.html">Desserts</a></li>
+ <li><a href="amnt.html">Cart<img height = "27px" width = "35px" src = "cafe/cart.png" ></a></li>
+ <li><a href="login.html">Login<img height = "27px" width = "30px" src = "cafe/login.png" ></a></li>
+ </ul>
+ </div>
+ 
+ <table caption = "menu"  align = "left" class = "tablemenu" >
+<h3 ><b>&emsp; &emsp; &emsp; <u>MENU</u></b></h3>
+<tr>
+<td>Chicken Burger
+</td>
+<td>Rs.270.00
+</td>
+</tr>
+
+<tr>
+<td>Fish Burger
+</td>
+<td>Rs.280.00
+</td>
+</tr>
+
+<tr>
+<td>HamBurger
+</td>
+<td>Rs.265.00
+</td>
+</tr>
+
+<tr>
+<td>SeafoodBurger
+</td>
+<td>Rs.240.00
+</td>
+</tr>
+
+<tr>
+<td>Omelet Burger 
+</td>
+<td>Rs.200.00
+</td>
+</tr>
+ </table>
+ 
+ <div>
+	<table align = "right">
+	<tr><td>
+	<h3> Chicken Burger </h3>
+	<img src="cafe/burger1.jpg" height="80" width="130"  > </img>
+	<select name="op">
+		<option value="sngl">Single Cheese</option>
+		<option value="dbl">Double Cheese</option> </select><br> 
+	<center>
+	<input type="number" name="qty" id="brqty1"  min="1" max="9">
+	</center>
+		 
+		 </td>
+	
+	<td>	
+	<h3> Fish Burger </h3>
+	<img src="cafe/burger2.jfif" height="80" width="130"  > </img>
+	<select name="op">
+		<option value="sngl">Single Cheese</option>
+		<option value="dbl">Double Cheese</option> </select>
+		 <br> 
+	<center>
+	<input type="number" name="qty" id="brqty2"  min="1" max="9">
+	</center></td>
+
+	<td>
+	<h3> HamBurger </h3>		
+	<img src="cafe/burger3.jfif" height="80" width="130"  > </img>
+	<select name="op">
+		<option value="sngl">Single Cheese</option>
+		<option value="dbl">Double Cheese</option> 
+		 </select>
+	
+	<br> 
+	<center>
+	<input type="number" name="qty" id="brqty3"  min="1" max="9">
+	</center></td></tr>
+
+	
+	<tr><td>
+	<h3> SeaFood Burger </h3>
+	<img src="cafe/burger4.png" height="80" width="130"  > </img>
+	<select name="op">
+		<option value="sngl">Single Cheese</option>
+		<option value="dbl">Double Cheese</option> 
+		 </select>
+	
+	<br> 
+	<center>
+	<input type="number" name="qty" id="brqty4"  min="1" max="9">
+	</center></td>
+
+	<td>
+	<h3> Omelet Burger </h3>
+	<img src="cafe/burger5.jfif" height="80" width="130"  > </img>
+	<select name="op">
+		<option value="sngl">Single Cheese</option>
+		<option value="dbl">Double Cheese</option> 
+		 </select>
+	
+	<br> 
+	<center>
+	<input type="number" name="qty" id="brqty5"  min="1" max="9">
+	</center></select>
+	</td>
+    </tr>	
+</table>	
+</div>
+
+<form action="" autocomplete="off" onsubmit="return burgerCal()"  method="post">
+	<img class = "cart" height = "27px" width = "35px" src = "cafe/cart.png" >	
+	<input type = "submit" class = "btn2" value = "Add to Cart">	
+</form>
+
+</body>
+</html>

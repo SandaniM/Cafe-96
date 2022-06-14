@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Beverages</title>
+<link rel = "stylesheet" href = "1.css" >
+</head>
+<body> 
+<script src="v.js"></script>
+
+
+<h2 class= "h22" > CAFE '96 </h2>
+<center><h3><b>B	E	V	E	R	A	G	E	S</b></h3></center>
+
+<div class="navigation">
+ <ul>
+ <li><a href="home.html">Home</a></li>
+ <li><a href="about.html">About Us</a></li>
+ <li><a href="pastry.html">Pastry</a></li>
+ <li><a href="cake.html">Cakes</a></li>
+ <li><a href="burger.html">Burgers</a></li>
+ <li><a href="beverages.html">Beverages</a></li>
+ <li><a href="candy.html">Candy</a></li>
+ <li><a href="dessert.html">Desserts</a></li>
+ <li><a href="amnt.html">Cart<img height = "27px" width = "35px" src = "cafe/cart.png" ></a></li>
+ <li><a href="login.html">Login<img height = "27px" width = "30px" src = "cafe/login.png" ></a></li>
+ </ul>
+ </div>
+
+<table caption = "menu"  align = "left" class = "tablemenu" >
+<h3 ><b>&emsp; &emsp; &emsp; <u>MENU</u></b></h3>
+<tr>
+<td>Milkshake
+</td>
+<td>Rs.200.00
+</td>
+</tr>
+
+<tr>
+<td>Coffee
+</td>
+<td>Rs.80.00
+</td>
+</tr>
+
+<tr>
+<td>Juice
+</td>
+<td>Rs.120.00
+</td>
+</tr>
+
+<tr>
+<td>Smoothie
+</td>
+<td>Rs.200.00
+</td>
+</tr>
+
+</table>
+
+<table align = "right" >
+<tr>
+<td>
+	<h3> Milkshake </h3>
+	<img src="cafe/milkshake.png" height="100" width="160"  > </img>
+
+		<select name="op">
+
+		<option value="Vanila">Vanila</option>
+		<option value="Chocolate">Chocolate</option>
+		<option value="strawberry">strawberry</option>
+		<option value="Faluda">Faluda</option>
+		</select>
+		<br> 
+	<center>
+	<input type="number" name="qty" id="bqty1"  min="1" max="9">
+	</center>
+</td>
+<td>		
+	<h3> Coffee </h3>
+	<img src="cafe/coffee.png" height="100" width="160"  > </img>
+
+
+		<select name="op">
+
+		<option value="Cold">Cold</option>
+		<option value="Hot">Hot</option>
+		</select>
+		<br> 
+	<center>
+	<input type="number" name="qty" id="bqty2"  min="1" max="9">
+	</center>
+		</td>
+		<tr>
+<tr>
+<td>		
+	<h3> Juice </h3>
+	<img src="cafe/juice.jfif" height="100" width="160"  > </img>
+	
+		<select name="op">
+
+		<option value="Orange">Orange</option>
+		<option value="Woodapple">Woodapple</option>
+		<option value="Avacado">Avacado</option>
+		<option value="Mixedfruit">Mixedfruit</option>
+		<option value="King coconut">King coconut</option>
+		<option value="Pine apple">Pineapple</option>
+		<option value="Bubble Tea">Bubble Tea</option>
+		</select>
+		<br> 
+	<center>
+	<input type="number" name="qty" id="bqty3"  min="1" max="9">
+	</center>
+		</td>
+		
+		<td>		
+	<h3> Smoothies </h3>
+	<img src="cafe/smoothies.jpg" height="100" width="160"  > </img>
+	
+		<select name="op">
+
+		<option value="Orange">Orange</option>
+		<option value="Woodapple">Woodapple</option>
+		<option value="Avacado">Avacado</option>
+		<option value="Mixedfruit">Mixedfruit</option>
+		<option value="Pine apple">Pineapple</option>
+		<option value="Banana">Banana</option>
+		<option value="Chocolate">Chocolate</option>
+		<option value="strawberry">strawberry</option>
+		</select>
+		<br> 
+	<center>
+	<input type="number" name="qty" id="bqty4"  min="1" max="9">
+	</center>
+		</td>
+		</tr>
+</table>
+
+<form action="" autocomplete="off" onsubmit="return bevCal()"  method="post">	
+	<img class = "cart" height = "27px" width = "35px" src = "cafe/cart.png" >	
+	<input type = "submit" class = "btn2" value = "Add To cart">	
+</form>
+
+</body>
+</html>

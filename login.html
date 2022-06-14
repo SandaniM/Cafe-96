@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+			<title>Login</title>
+			<link rel = "stylesheet" href = "1.css">
+		
+	</head>
+	
+	<body>
+	<h2 class= "h22" > CAFE '96 </h2>
+	<div class="navigation">
+ <ul>
+ <li><a href="home.html">Home</a></li>
+ <li><a href="about.html">About Us</a></li>
+ <li><a href="pastry.html">Pastry</a></li>
+ <li><a href="cake.html">Cakes</a></li>
+ <li><a href="burger.html">Burgers</a></li>
+ <li><a href="beverages.html">Beverages</a></li>
+ <li><a href="candy.html">Candy</a></li>
+ <li><a href="dessert.html">Desserts</a></li>
+ <li><a href="amnt.html">Cart<img height = "27px" width = "35px" src = "cafe/cart.png" ></a></li>
+ <li><a href="login.html">Login<img height = "27px" width = "30px" src = "cafe/login.png" ></a></li>
+ </ul>
+ </div>
+ 
+	<script src="v.js">
+	</script>
+	
+		<div class="container">
+		
+		<h2 class = "h22">Welcome</h2>
+		
+			<form name = "login" action="items.html" autocomplete="off" onsubmit="return validateLogin()"  method="post">
+			
+			<div>
+				<label for="username" id="lbluser">Email or phone</label>
+				<input type="text" name="username" id="username">
+			</div>
+			
+			<div>
+				<label for="password" id="lblpass">Password</label>
+				<input type="password" name="password" id="password">
+			</div>
+			
+
+			
+			<table>
+			<tr>
+			<td>
+				<div>
+					<input type = "submit" class = "btn4" value ="LOGIN" >
+				</div>
+			</td>
+			<td>
+			<div>
+
+				<a href="home.html" ><input type = "button" class = "btn4" value ="CANCEL" ></a>
+			</div>
+			</td>
+			</tr>
+			</table>
+			<br>
+			<div>
+				<a href="signin.html" ><h4> Forgot Password? </h4></a>
+			</div>
+			
+				<div>
+				
+				
+					<p> <sup>________________________</sup>or<sup>_________________________</sup></p>
+					<!--input type="button" class="btn3" value="Create New Account" onclick = "signin.html"-->
+					 
+					 <a href="signin.html" ><input type = "button" class = "btn3" value ="Create New Account" ></a>
+					 
+    <br>
+				</div> 
+			
+
+			</form>
+			
+		</div> 
+				
+	</body>
+</html>

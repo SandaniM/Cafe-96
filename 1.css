@@ -1,0 +1,308 @@
+
+body
+{
+	background-image : url("cafe/background.jpg");
+	background-size : cover;
+	font-family:comicSans;
+}
+
+ /* HEADINGS*/ 
+
+.h21
+{
+	font-size : 60px;
+	text-align : center;
+	color : black;
+}
+
+.h22
+{
+	font-size : 40px;
+	text-align : center;
+	color : black;
+}
+
+
+ /* CONTAINERS*/ 
+.container
+{
+	width:400px;
+	margin:0 auto;
+	text-align: center;
+
+}
+
+ 
+/*PARAGRAPH*/
+.pitem
+{
+	font-family : comicSans;
+	font-size : 600 px;
+}
+ 
+
+
+
+ /* BUTTONS */ 
+
+.btn2 
+{
+    margin : 0;
+  	position: absolute;
+  	background-color : rgb(26, 131, 23) ;
+	top: 110%;
+  	left: 8%; 
+	color : white ;
+	font-size : 20px;
+	font-weight: bold;
+	border: none;
+	text-align : center;
+	
+} 
+
+.btn3 
+{
+	color: white;
+	background-color: rgb(26, 131, 23);
+	width: 420px;
+	height: 70px;
+	border: none;
+	border-radius: 7px;
+	font-weight: bold;
+	font-size: 28px;
+	text-align : center;
+}
+		
+.btn4
+{
+	color: white;
+    background-color: #006097;
+	width: 208px;
+    height: 70px;
+	border: none;
+    border-radius: 7px;
+	font-weight: bold;
+    font-size: 22px;							
+}	
+
+
+ /* IMAGES*/ 
+.image
+{
+	margin: 0;
+  	position: absolute;
+	top: 88%;
+  	left: 55%;
+  	transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+	height : 250px;
+	width : 500px; 	
+}
+
+
+.image3
+{	
+	margin: 0;
+  	position: absolute;
+	top: 87%;
+  	left: 90%;
+  	height : 75px;
+	width : 85px;  	
+}	
+
+.itemimg
+{
+	height : 260px;
+	width : 420px;
+}
+
+.cart 
+{
+    margin :0;
+  	position: absolute;
+	top: 110%;
+  	left: 5%; 
+	color : black ;
+}
+
+
+ /* HYPERLINKS*/ 
+a	
+{	
+	text-decoration:none;
+	color:#006097;
+	font-weight:bold;
+}
+
+.
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+	
+ /* FORM */ 	
+form div
+{	margin-bottom: 10px;
+	position:relative;
+}
+			  
+form div label
+{	font-size:18px;
+	position:absolute;
+	top:0;
+	left:0;
+	margin:15px 10px 10px 10px;
+	transition: .2%;
+}
+			  
+form div input 
+{	width:100%;
+	font-size:18px;
+	padding:30px 10px 10px 10px;
+	width: 420px;
+	height: 70px;
+}							
+		
+
+ /* NAVIGATION*/ 
+.navigation
+{
+	margin:0px 0px 25px;
+	border-bottom:#adb1b2 solid 1px;
+	padding:15px 5px;
+	background: #e4e6e5;
+}
+
+.navigation ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+.navigation ul li
+{
+	margin:0px;
+	padding:0px 32px;
+	display:inline;
+	font-size:20px;
+	list-style-type:none;
+	border-right:#868B8F dotted 2px;
+}
+.navigation ul li a
+{
+color:#03314b;
+text-decoration:none;
+}
+
+.navigation ul li a:not visited
+{
+	text-decoration:underline;
+	color : brown;
+}
+
+.navigation ul li a:hover
+{
+	text-decoration:underline;
+	color : blue;
+}
+
+.navigation ul li a:active
+{
+	text-decoration:underline;
+	color : red;
+}
+
+.navigation ul li:last-child 
+{
+	border-right:none;
+}
+
+
+/*TABLE*/
+.tablemenu 
+{
+	font-size : 21px;
+	background-color : pink;
+	font-family : comicSans;
+	
+}
+
+.td1 {
+  height: 500px;
+  width : 800px;
+  vertical-align: top;
+  
+}
+
+
+.bodyabout {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image : url("cafe/background.jpg");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 40px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+

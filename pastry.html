@@ -1,0 +1,282 @@
+<html>
+<head>
+<title>Pastry</title>
+<link rel = "stylesheet" href = "1.css" >
+</head>
+<body>
+<script src="v.js"></script>
+
+<h2 class= "h22" > CAFE '96 </h2>
+<center><h3><b>P	A	S	T	R	Y</b></h3></center>
+ <div class="navigation">
+ <ul>
+ <li><a href="home.html">Home</a></li>
+ <li><a href="about.html">About Us</a></li>
+ <li><a href="pastry.html">Pastry</a></li>
+ <li><a href="cake.html">Cakes</a></li>
+ <li><a href="burger.html">Burgers</a></li>
+ <li><a href="beverages.html">Beverages</a></li>
+ <li><a href="candy.html">Candy</a></li>
+ <li><a href="dessert.html">Desserts</a></li>
+ <li><a href="amnt.html">Cart<img height = "27px" width = "35px" src = "cafe/cart.png" ></a></li>
+ <li><a href="login.html">Login<img height = "27px" width = "30px" src = "cafe/login.png" ></a></li>
+ </ul>
+ </div>
+ 
+ <h3 ><b>&emsp; &emsp; <u>MENU</u></b></h3>
+&nbsp 
+<table caption = "menu"  align = "left" class = "tablemenu" >
+<tr>
+<td>Pastry
+</td>
+<td>Rs.70.00
+</td>
+</tr>
+
+<tr>
+<td>Bread Roll
+</td>
+<td>Rs.60.00
+</td>
+</tr>
+
+<tr>
+<td>Garlic Bread 
+</td>
+<td>Rs.95.00
+</td>
+</tr>
+
+<tr>
+<td>Devel Chicken Bun
+</td>
+<td>Rs.100.00
+</td>
+</tr>
+
+<tr>
+<td>Samosa 
+</td>
+<td>Rs.100.00
+</td>
+</tr>
+
+<tr>
+<td>Rolls
+</td>
+<td>Rs.80.00
+</td>
+</tr>
+
+<tr>
+<td>Cutlet
+</td>
+<td>Rs.50.00
+</td>
+</tr>
+
+<tr>
+<td>HotDog
+</td>
+<td>Rs.120.00
+</td>
+</tr>
+
+<tr>
+<td>Sausage Bun
+</td>
+<td>Rs.70.00
+</td>
+</tr>
+
+<tr>
+<td>Sandwich
+</td>
+<td>Rs.65.00
+</td>
+</tr>
+
+<tr>
+<td>Fish Bun
+</td>
+<td>Rs.50.00
+</td>
+</tr>
+
+<tr>
+<td>Tea Bun
+</td>
+<td>Rs.50.00
+</td>
+</tr>
+
+<tr>
+<td>Cream Bun
+</td>
+<td>Rs.55.00
+</td>
+</tr>
+
+<tr>
+<td>Viana Roll
+</td>
+<td>Rs.50.00
+</td>
+</tr>
+
+</table>
+ 
+ <table align = "center">
+<tr>
+<td>
+	<h3> Pastry </h3>
+	<img src="cafe/pastry.jpg" height="80" width="130"  > 
+	<select name="op">
+		<option value="veg">Veg</option>
+		<option value="egg">Egg</option> 
+		<option value="fish">Fish</option> 
+		<option value="chicken">Chicken</option></select><br> 
+	<center>
+	<input type="number" name="qty" id="pqty1"  min="1" max="9" onblur = "Calculate()">
+	</center>	
+</td>
+<td>	
+	<h3> Bread Roll </h3>
+	<img src="cafe/breadroll.jfif" height="80" width="130" ><br> 
+	<center>
+	<input type="number" name="qty" id="pqty2"  min="1" max="9">
+	</center>
+</td>
+
+<td>
+	<h3> Garlic Bread </h3>
+	<img src="cafe/garlicbread.jfif" height="80" width="130"  ><br> 
+	<center>
+	<input type="number" name="qty" id="pqty3"  min="1" max="9">
+	</center> 
+</td>
+
+
+<td>
+	<h3> Chcken Devel Bun</h3>
+	<img src="cafe/chkn.jfif" height="80" width="130"  ><br> 
+	<center>
+	<input type="number" name="qty" id="pqty4"  min="1" max="9">
+	</center> 
+	
+</td>
+
+</tr>
+
+<tr>
+<td>	
+	<h3> Samosa </h3>
+	<img src="cafe/samosa.jfif" height="80" width="130" ><br> 
+	<center>
+	<input type="number" name="qty" id="pqty5"  min="1" max="9">
+	</center> 
+</td>
+
+<td>
+	<h3> Rolls </h3>
+	<img src="cafe/rolls.jfif" height="80" width="130"  > <br> 
+	<center>
+	<input type="number" name="qty" id="pqty6"  min="1" max="9">
+	</center>
+</td>
+
+
+<td>
+	<h3> Cutlet </h3>
+	<img src="cafe/cutlet.jfif" height="80" width="130"  >
+		<select name="op">
+		<option value="veg">Veg</option>
+		<option value="fish">Fish</option> 
+		<option value="chicken">Chicken</option></select><br> 
+	<center>
+	<input type="number" name="qty" id="pqty7"  min="1" max="9">
+	</center>	
+		
+</td>
+<td>	
+	<h3> HotDog </h3>
+	<img src="cafe/hotdog.jfif" height="80" width="130" ><br> 
+	<center>
+	<input type="number" name="qty" id="pqty8"  min="1" max="9">
+	</center> 
+</td>
+
+</tr>
+
+<tr>
+<td>
+	<h3> Sausage Bun </h3>
+	<img src="cafe/sausg.jfif" height="80" width="130"  > <br> 
+	<center>
+	<input type="number" name="qty" id="pqty9"  min="1" max="9">
+	</center>
+</td>
+
+
+<td>
+	<h3> Sandwich </h3>
+	<img src="cafe/sandwich.jfif" height="80" width="130"  > 
+	<select name="op">
+		<option value="veg">Veg</option>
+		<option value="egg">Egg</option> 
+		<option value="fish">Fish</option> 
+		<option value="chicken">Chicken</option></select>	<br> 
+	<center>
+	<input type="number" name="qty" id="pqty10"  min="1" max="9">
+	</center>
+</td>
+<td>	
+	<h3> Fish Bun </h3>
+	<img src="cafe/fish.jfif" height="80" width="130" > <br> 
+	<center>
+	<input type="number" name="qty" id="pqty11"  min="1" max="9">
+	</center>
+</td>
+
+<td>
+	<h3> Tea Bun </h3>
+	<img src="cafe/tea.jfif" height="80" width="130"  ><br> 
+	<center>
+	<input type="number" name="qty" id="pqty12"  min="1" max="9">
+	</center> 
+</td>
+
+</tr>
+
+<tr>
+<td>
+	<h3>Cream Bun</h3>
+	<img src="cafe/cream.jfif" height="80" width="130"  > <br> 
+	<center>
+	<input type="number" name="qty" id="pqty13"  min="1" max="9">
+	</center>
+	
+</td>
+<td>	
+	<h3> Viana Roll </h3>
+	<img src="cafe/viana.jfif" height="80" width="130" > <br> 
+	<center>
+	<input type="number" name="qty" id="pqty14"  min="1" max="9">
+	</center>
+</td>
+
+<td>
+	
+</td>
+
+</tr>
+</table>
+ 
+ <form action="" autocomplete="off" onsubmit="return pastryCal()"  method="post">		
+	<input type = "submit" class = "btn2" value = "Add To Cart">
+	<img class = "cart" height = "27px" width = "35px" src = "cafe/cart.png" >	
+</form>
+ 
+</body>
+</html>
+
